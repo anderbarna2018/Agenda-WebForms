@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements xmlns="http://schemas.microsoft.com/AspNet/AdRotator-Schedule-File">
+  <Ad>
+    <ImageUrl>~/Gifs/Atack On Titan.gif</ImageUrl>
+    <NavigateUrl>https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin</NavigateUrl>
+    <AlternateText>Atack On Titan</AlternateText>
+    <Impressions>5</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Gifs/DB Heroes1.gif</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/Dragon_Ball_Heroes</NavigateUrl>
+    <AlternateText>Dragon Ball Heroes</AlternateText>
+    <Impressions>3</Impressions>
+  </Ad>
+</Advertisements>

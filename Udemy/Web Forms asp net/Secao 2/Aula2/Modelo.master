@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Modelo.master.cs" Inherits="Modelo" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <main>
+        <form id="form1" runat="server">
+            <header>
+                <h1>Topo</h1>
+            </header>
+            <menu>
+
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="Web" Orientation="Horizontal" StaticDisplayLevels="2">
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="Web" runat="server" />
+
+            </menu>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h1>Rodapé</h1>
+    </footer>
+</body>
+</html>
